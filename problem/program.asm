@@ -1,6 +1,6 @@
-// COLOCO AQUÍ TU NOMBRE COMPLETO
-// COLOCA AQUÍ TU ID
-// COLOCA AQUÍ TU CORREO ELECTRÓNICO
+// Lorenzo Florez Valencia
+// 000418868
+// lorenzo.florez@upb.edu.co
 (START)
     @START
     0;JMP
