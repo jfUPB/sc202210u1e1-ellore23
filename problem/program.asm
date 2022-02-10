@@ -6,12 +6,14 @@
 (START)
     @START // Detectar tecla F
     @24576
-    D=M  // Guardo lo que hay en A (Solo F)
-    D-24576
-    0;JEQ  //
-    @1
-    0;JGT 
+    D=M  // Guardo lo que hay en A Solo F
+    @70
+    D=D-A
+    @10
+    D;JEQ  // Salta si se presiona F
+    @0
+    D=A
+    D;JEQ  
     
     
     
-    0;JMP
