@@ -33,6 +33,8 @@
   D=D-A
   @4
   D;JGT
+  @33 // Salto a det
+  D;JEQ
 
   //Coloco valores
   @2
@@ -42,3 +44,17 @@
   M=M+1
   @18
   0;JMP
+
+  // Loop 3 Detecto input C // 33
+  @24576
+  D=M
+  @67
+  D=D-A
+  @42
+  D;JEQ
+  @33
+  D;JGT
+  D;JLT
+
+  //
+  @1
