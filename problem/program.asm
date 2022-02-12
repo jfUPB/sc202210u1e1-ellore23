@@ -56,17 +56,19 @@
   D;JGT
   D;JLT //Salta aqui si no es C
 
-  //Hasta aca va bien
+  
 
-//Loop 2 Mientras que siga en pantalla y F //12
+//Loop 4 Mientras que siga en pantalla 
   @2
-  D=M
+  D=M 
   @24575
   D=D-A
-  @50
+  @48 
   D;JGT
-  @57// Salto a det
+  @5
   D;JEQ
+
+  //Hasta aca va bien
   
   //Coloco valores
   @2
@@ -74,5 +76,5 @@
   M=0
   @2
   M=M+1
-  @1
+  @42
   0;JMP
