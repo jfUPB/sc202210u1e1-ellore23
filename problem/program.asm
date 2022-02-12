@@ -51,10 +51,28 @@
   @67
   D=D-A
   @42
-  D;JEQ
+  D;JEQ //Salta aqui si es C
   @33
   D;JGT
-  D;JLT
+  D;JLT //Salta aqui si no es C
 
-  //
+  //Hasta aca va bien
+
+//Loop 2 Mientras que siga en pantalla y F //12
+  @2
+  D=M
+  @24575
+  D=D-A
+  @50
+  D;JGT
+  @57// Salto a det
+  D;JEQ
+  
+  //Coloco valores
+  @2
+  A=M
+  M=0
+  @2
+  M=M+1
   @1
+  0;JMP
